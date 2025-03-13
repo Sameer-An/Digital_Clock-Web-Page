@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    background-color: black;
+}
+
+.container h1 {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 85vw;
+    height: 30vw;
+    background-color: #0b0b0b;
+    background-image: url(https://img.freepik.com/premium-photo/sand-clock_933853-2052.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(215, 215, 215);
+    box-shadow: 0px 3px 5px rgb(0, 0, 0);
+    padding: 1rem;
+    color: white;
+}
+
+.hour,
+.minute,
+.second {
+    border-radius: 5px;
+    width: 15vw;
+    font-size:  14.5vw;
+    height: 25%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 67, 67);
+}
+
+.date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid white;
+    width: 50%;
+    height: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.474);
+    color: white;
+    font-size: 2.5vw;
+}
+
+.content {
+    width: 100%;
+    height: 50%;
+    font-size: 3.5vw;
+}
+
